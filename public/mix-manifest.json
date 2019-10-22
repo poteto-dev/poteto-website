@@ -2,5 +2,9 @@
     "/js/app.js": "/js/app.js?id=09b15eb8e255417cdf84",
     "/css/app.css": "/css/app.css?id=8c211093dcd79a5f5c6f",
     "/js/manifest.js": "/js/manifest.js?id=3c768977c2574a34506e",
-    "/js/vendor.js": "/js/vendor.js?id=6c7ae57337d58f792489"
+    "/js/vendor.js": "/js/vendor.js?id=6c7ae57337d58f792489",
+    "/css/style.css": "/css/style.css",
+    "/css/bootstrap.css": "/css/bootstrap.css",
+    "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/jquery.js": "/js/jquery.js"
 }
