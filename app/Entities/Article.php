@@ -9,4 +9,9 @@ class Article extends Model
 {
     use SoftDeletes;
     protected $guarded = [];
+
+    public function category()
+    {
+        return $this->morphMany(Category::class, 'categoryable');
+    }
 }

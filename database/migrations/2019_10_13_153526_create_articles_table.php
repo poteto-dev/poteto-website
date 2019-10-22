@@ -16,8 +16,10 @@ class CreateArticlesTable extends Migration
         Schema::create('articles', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('cover');
+            $table->string('slug');
             $table->string('title');
             $table->text('body');
+            $table->enum('status', ['active', 'disable']);
             $table->timestamps();
             $table->softDeletes();
         });
