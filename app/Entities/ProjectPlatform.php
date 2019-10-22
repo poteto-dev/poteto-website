@@ -9,4 +9,9 @@ class ProjectPlatform extends Model
 {
     use SoftDeletes;
     protected $guarded = [];
+
+    public function projects()
+    {
+        return $this->belongsToMany(Project::class);
+    }
 }
