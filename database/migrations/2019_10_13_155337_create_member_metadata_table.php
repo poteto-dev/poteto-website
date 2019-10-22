@@ -15,6 +15,8 @@ class CreateMemberMetadataTable extends Migration
     {
         Schema::create('member_metadata', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->unsignedInteger('member_id');
+            $table->string('photo')->nullable();
             $table->string('phone')->nullable();
             $table->date('date_of_birth')->nullable();
             $table->string('city_of_birth')->nullable();

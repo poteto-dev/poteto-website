@@ -20,6 +20,7 @@ class CreateArticlesTable extends Migration
             $table->string('title');
             $table->text('body');
             $table->enum('status', ['active', 'disable']);
+            $table->unsignedInteger('category_id');
             $table->timestamps();
             $table->softDeletes();
         });

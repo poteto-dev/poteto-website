@@ -9,4 +9,9 @@ class Category extends Model
 {
     use SoftDeletes;
     protected $guarded = [];
+
+    public function articles()
+    {
+        return $this->belongsToMany(Article::class, 'category_id');
+    }
 }

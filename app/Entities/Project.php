@@ -9,4 +9,14 @@ class Project extends Model
 {
     use SoftDeletes;
     protected $guarded = [];
+
+    public function platforms()
+    {
+        return $this->hasMany(ProjectPlatform::class);
+    }
+
+    public function labels()
+    {
+        return $this->morphToMany(Label::class, 'labelable');
+    }
 }
