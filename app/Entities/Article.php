@@ -12,6 +12,11 @@ class Article extends Model
 
     public function category()
     {
-        return $this->morphMany(Category::class, 'categoryable');
+        return $this->hasOne(Category::class, 'category_id');
+    }
+
+    public function labels()
+    {
+        return $this->morphToMany(Label::class, 'labelable');
     }
 }

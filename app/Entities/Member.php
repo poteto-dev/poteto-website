@@ -14,4 +14,9 @@ class Member extends Model
     {
         return $this->hasOne(Division::class, 'division_id');
     }
+
+    public function memberMetadata()
+    {
+        return $this->belongsTo(MemberMetadata::class, 'member_id');
+    }
 }

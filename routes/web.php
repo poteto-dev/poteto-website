@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('_home');
 });
+
+Route::get('/auth', function () {
+    return view('app.dashboard');
+});
