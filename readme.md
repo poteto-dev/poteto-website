@@ -2,6 +2,7 @@
   <img src="public/img/poteto.png" width="400">
 </p>
 <h1 align="center">We Are Omni Poteto!</h1>
+Omni Poteto is...
 <br>
 
 ## Features
