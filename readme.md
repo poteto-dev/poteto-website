@@ -1,4 +1,8 @@
-<p align="center"><img src="public/img/poteto.png" width="400"></p>
+<p align="center">
+  <img src="public/img/poteto.png" width="400">
+</p>
+<h1 align="center">We Are Omni Poteto!</h1>
+<br>
 
 ## Features
 
