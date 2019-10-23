@@ -1,10 +1,57 @@
+/* ############### Font Face Start ############### */
+
 @font-face {
   font-family: Laqonic;
-  src: url("/public/fonts/Laqonic-4F-Unicase.otf");
+  font-style: normal;
+  src: url(/fonts/Laqonic-4F-Unicase.otf?9e09680372fcda920777b1da0c4fd331);
 }
 
 @font-face {
   font-family: Mission;
-  src: url("/public/fonts/Mission-Script.woff");
+  font-style: normal;
+  src: url(/fonts/Mission-Script.woff?37ac377c22b809bf27e1a30861062efe);
+}
+
+.font-lq {
+  font-family: Laqonic;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.font-ms {
+  font-family: Mission;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* ############### Font Face End ############### */
+
+/* ############### Base Color Start ############### */
+
+/* ############### Base Color End ############### */
+
+/* ############### Typography Start ############### */
+
+/* ############### Typography End ############### */
+
+/* ############### Start custom style here ############### */
+
+html,
+body {
+  height: 100%;
+}
+
+.section-1 .row .col-md-6 {
+  height: 100%;
+}
+
+.section-1__svg {
+  align-self: center;
+  width: 400px;
+  height: 300px;
+  display: block;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
