@@ -1,9 +1,4 @@
 /* ############### Font Face Start ############### */
-@font-face {
-  font-family: Laqonic;
-  font-style: normal;
-  src: url("../fonts/Laqonic-4F-Unicase.otf");
-}
 
 @font-face {
   font-family: Mission;
@@ -11,10 +6,16 @@
   src: url("../fonts/Mission-Script.woff");
 }
 
-.font-lq{
-  font-family: Laqonic;
+@font-face {
+  font-family: Bitter-Regular;
   font-style: normal;
-  font-weight: normal;
+  src: url("../fonts/Bitter-Regular.ttf");
+}
+
+@font-face {
+  font-family: Bitter-Bold;
+  font-style: normal;
+  src: url("../fonts/Bitter-Bold.ttf");
 }
 
 .font-ms {
@@ -22,12 +23,26 @@
   font-style: normal;
   font-weight: normal;
 }
+
+.font-br {
+  font-family: Bitter-Regular, Serif;
+}
+
+.font-bb {
+  font-family: Bitter-Bold, Serif;
+}
 /* ############### Font Face End ############### */
 
 
-/* ############### Base Color Start ############### */
+// ############### Base Color Start ###############
 
-/* ############### Base Color End ############### */
+$liver-brown: #66291F;
+$salmon-pink: #F6A39B;
+$pastel-pink: #D3AB9E;
+$dust-storm: #EAC9C1;
+$champagne-pink: #EBD8D0;
+
+// ############### Base Color End ###############
 
 
 /* ############### Typography Start ############### */
