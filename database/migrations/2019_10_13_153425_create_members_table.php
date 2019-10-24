@@ -19,9 +19,8 @@ class CreateMembersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('name');
-            $table->text('bio');
-            $table->string('picture')->nullable();
-            $table->unsignedInteger('member_metadata_id');
+            $table->text('bio')->nullable();
+            $table->string('photo')->nullable();
             $table->unsignedInteger('division_id');
             $table->timestamps();
             $table->softDeletes();
