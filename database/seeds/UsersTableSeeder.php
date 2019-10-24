@@ -17,7 +17,8 @@ class UsersTableSeeder extends Seeder
                 'username'      =>  'fariz',
                 'email'         =>  'fariz@poteto.dev',
                 'password'      =>  env('SEEDER_PASSWORD'),
-                'name'          =>  'Nizar Alfarizi'
+                'name'          =>  'Nizar Alfarizi',
+                'role'          =>  'member'
             ]
         ];
 
@@ -28,6 +29,9 @@ class UsersTableSeeder extends Seeder
                 'password'      =>  $user['password'],
                 'name'          =>  $user['name'],
             ]);
+
+            $user->assignRole($user['role']);
+
             $this->command->info('User ' . $user->name . ' Created!');
         }
     }
