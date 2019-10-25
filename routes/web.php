@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/auth', function () {
-    return view('app.dashboard');
+    return view('auth.login');
 });
