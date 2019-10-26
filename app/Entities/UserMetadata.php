@@ -5,13 +5,13 @@ namespace App\Entities;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class MemberMetadata extends Model
+class UserMetadata extends Model
 {
     use SoftDeletes;
     protected $guarded = [];
 
-    public function member()
+    public function user()
     {
-        return $this->hasOne(Member::class, 'member_id');
+        return $this->hasOne(User::class, 'user_id');
     }
 }
