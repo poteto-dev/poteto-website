@@ -36,6 +36,10 @@
 
 /* ############### Typography Start ############### */
 
+.ls-03 {
+  letter-spacing: 0.3px;
+}
+
 /* ############### Typography End ############### */
 
 /* ############### Start custom style here ############### */
@@ -45,44 +49,61 @@ body {
   height: 100%;
 }
 
-.navbar.bg-transparent {
+.navbar {
   height: 100px;
 }
 
-.navbar.bg-transparent .container .navbar-brand img {
+.navbar .navbar-brand img {
   width: 60px;
   height: auto;
 }
 
-.navbar.bg-transparent .container .navbar-brand .navbar-title {
+.navbar .navbar-brand .navbar-title {
   font-family: Mission;
   color: #66291F;
   border-bottom: 2px solid #66291F;
 }
 
 .section-1 {
-  height: 100vh;
-}
-
-.section-1 .row {
   height: 100%;
 }
 
-.section-1 .row .col-md-6 {
+.section-1 .container {
   height: 100%;
 }
 
-.section-1 .row .col-md-6 .card {
+.section-1__row {
+  height: calc(100% - 200px);
+  height: -o-calc(100% - 200px);
+}
+
+.section-1__row .col-md-6 {
   height: 100%;
 }
 
-.section-1__svg {
-  align-self: center;
-  width: 400px;
-  height: 300px;
-  display: block;
-  position: relative;
+.section-1__row .col-md-6 .card {
+  height: 100%;
+}
+
+.section-1__row .col-md-6 .card img {
+  max-width: 100%;
+  height: auto;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.section-1__row .col-md-6 .card .my-auto h1 {
+  color: #000000;
+}
+
+.section-1__row .col-md-6 .card .my-auto button {
+  background-color: #007BFF;
+  color: #ffffff;
+  padding: 15px 35px;
+}
+
+.section-1__row .col-md-6 .card .my-auto button:hover {
+  box-shadow: 0px 2px 12px 0px #adb5bd;
+  background-color: #0070D8;
 }
 
