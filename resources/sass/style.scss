@@ -1,4 +1,7 @@
 @import "base";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins/breakpoints";
 
 /* ############### Start custom style here ############### */
 
@@ -6,44 +9,57 @@ html,body {
   height: 100%;
 }
 
-.navbar.bg-transparent{
+.navbar{
   height: 100px;
-  .container{
-    .navbar-brand{
-      img{
-        width: 60px;
-        height: auto;
-      }
-      .navbar-title{
-        font-family: Mission;
-        color: $liver-brown;
-        border-bottom: 2px solid $liver-brown;
-      }
+  .navbar-brand{
+    img{
+      width: 60px;
+      height: auto;
+    }
+    .navbar-title{
+      font-family: Mission;
+      color: $liver-brown;
+      border-bottom: 2px solid $liver-brown;
     }
   }
 }
 
 .section-1{
-  height: 100vh;
-  .row{
+  height: 100%;
+  .container{
     height: 100%;
-    .col-md-6{
+  }
+}
+
+.section-1__row{
+  height: calc(100% - 200px);
+  height: -moz-calc(100% - 200px);
+  height: -webkit-calc(100% - 200px);
+  height: -o-calc(100% - 200px);
+  .col-md-6{
+    height: 100%;
+    .card{
       height: 100%;
-      .card{
-        height: 100%;
+      img{
+        max-width: 100%;
+        height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+      .my-auto{
+        h1{
+          color: $black;
+        }
+        button{
+          background-color: $primary;
+          color: $white;
+          padding: 15px 35px;
+          &:hover{
+            box-shadow: 0px 2px 12px 0px $gray-500;
+            background-color: $dark-primary;
+          }
+        }
       }
     }
   }
 }
-
-.section-1__svg{
-  align-self: center;
-  width: 400px;
-  height: 300px;
-  display: block;
-  position: relative;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-
