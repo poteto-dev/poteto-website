@@ -7,8 +7,8 @@
     <div class="container">
       <nav class="navbar navbar-light bg-white pt-3">
         <a class="navbar-brand font-ms" href="#">
-          <img src="{{ asset('img/poteto_favicon.png') }}" class="d-inline-block align-top" alt="">
-          <span class="navbar-title display-4 ml-2">Omni Poteto</span>
+          <img src="{{ asset('img/poteto_favicon.png') }}" class="undraggable d-inline-block align-top" alt="">
+          <span class="navbar-title display-4 ml-md-2">Omni Poteto</span>
         </a>
       </nav>
       <div class="row section-1__row">
@@ -17,13 +17,13 @@
             <div class="my-auto">
               <h1 class="font-bb">Build your app and grow your business with us.</h1>
               <p class="font-br ls-03 my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa debitis delectus dignissimos eligendi eum harum iusto laborum nesciunt nulla numquam pariatur reiciendis repellendus, sed sint sunt veritatis? Illo, totam.</p>
-              <button type="button" class="btn btn-lg font-bb ls-03 float-right">Contact our team</button>
+              <button type="button" class="btn btn-lg font-bb ls-03">Contact our team</button>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="card card-body border-0">
-            <img src="{{ asset("assets/img/section1.svg") }}" width="518" height="360">
+            <img class="undraggable" src="{{ asset("assets/img/section1.svg") }}" width="518" height="360">
           </div>
         </div>
       </div>

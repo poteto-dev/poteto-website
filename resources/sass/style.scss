@@ -9,6 +9,15 @@ html,body {
   height: 100%;
 }
 
+.undraggable{
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 .navbar{
   height: 100px;
   .navbar-brand{
@@ -18,8 +27,8 @@ html,body {
     }
     .navbar-title{
       font-family: Mission;
-      color: $liver-brown;
-      border-bottom: 2px solid $liver-brown;
+      color: $salmon-pink;
+      border-bottom: 2px solid $salmon-pink;
     }
   }
 }
@@ -32,12 +41,13 @@ html,body {
 }
 
 .section-1__row{
-  height: calc(100% - 200px);
-  height: -moz-calc(100% - 200px);
-  height: -webkit-calc(100% - 200px);
-  height: -o-calc(100% - 200px);
+  height: calc(100% - 100px);
+  height: -moz-calc(100% - 100px);
+  height: -webkit-calc(100% - 100px);
+  height: -o-calc(100% - 100px);
+  //height: 100%;
   .col-md-6{
-    height: 100%;
+    max-height: 100%;
     .card{
       height: 100%;
       img{
@@ -51,12 +61,20 @@ html,body {
           color: $black;
         }
         button{
-          background-color: $primary;
+          background-color: $salmon-pink;
           color: $white;
-          padding: 15px 35px;
+          padding: 2% 4%;
+          border: none;
+          border-radius: 45px;
+          transition: all 0.3s ease 0s;
+          box-shadow: 0px 15px 20px rgba(229,164,237, 0.4);
+          cursor: pointer;
+          outline: none;
           &:hover{
-            box-shadow: 0px 2px 12px 0px $gray-500;
-            background-color: $dark-primary;
+            background-color: $cornflower-blue;
+            color: $white;
+            box-shadow: 0px 15px 20px rgba(122,91,245,0.4);
+            transform: translateY(-7px);
           }
         }
       }
