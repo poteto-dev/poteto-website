@@ -36,15 +36,26 @@
 
 // ############### Base Color Start ###############
 
+$black: #000000;
 $liver-brown: #66291F;
 $salmon-pink: #F6A39B;
 $pastel-pink: #D3AB9E;
+$french-lilac: #E5A4ED;
 $dust-storm: #EAC9C1;
 $champagne-pink: #EBD8D0;
+$white: #ffffff;
+
+$dark-primary: #0070D8;
+$primary: #007BFF;
+$cornflower-blue: #7A5BF5;
 
 // ############### Base Color End ###############
 
 
 /* ############### Typography Start ############### */
+
+.ls-03{
+  letter-spacing: 0.3px;
+}
 
 /* ############### Typography End ############### */

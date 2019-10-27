@@ -1,4 +1,7 @@
 @import "base";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins/breakpoints";
 
 /* ############### Start custom style here ############### */
 
@@ -6,44 +9,75 @@ html,body {
   height: 100%;
 }
 
-.navbar.bg-transparent{
+.undraggable{
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.navbar{
   height: 100px;
-  .container{
-    .navbar-brand{
-      img{
-        width: 60px;
-        height: auto;
-      }
-      .navbar-title{
-        font-family: Mission;
-        color: $liver-brown;
-        border-bottom: 2px solid $liver-brown;
-      }
+  .navbar-brand{
+    img{
+      width: 60px;
+      height: auto;
+    }
+    .navbar-title{
+      font-family: Mission;
+      color: $salmon-pink;
+      border-bottom: 2px solid $salmon-pink;
     }
   }
 }
 
 .section-1{
-  height: 100vh;
-  .row{
+  height: 100%;
+  .container{
     height: 100%;
-    .col-md-6{
+  }
+}
+
+.section-1__row{
+  height: calc(100% - 100px);
+  height: -moz-calc(100% - 100px);
+  height: -webkit-calc(100% - 100px);
+  height: -o-calc(100% - 100px);
+  //height: 100%;
+  .col-md-6{
+    max-height: 100%;
+    .card{
       height: 100%;
-      .card{
-        height: 100%;
+      img{
+        max-width: 100%;
+        height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+      .my-auto{
+        h1{
+          color: $black;
+        }
+        button{
+          background-color: $salmon-pink;
+          color: $white;
+          padding: 2% 4%;
+          border: none;
+          border-radius: 45px;
+          transition: all 0.3s ease 0s;
+          box-shadow: 0px 15px 20px rgba(229,164,237, 0.4);
+          cursor: pointer;
+          outline: none;
+          &:hover{
+            background-color: $cornflower-blue;
+            color: $white;
+            box-shadow: 0px 15px 20px rgba(122,91,245,0.4);
+            transform: translateY(-7px);
+          }
+        }
       }
     }
   }
 }
-
-.section-1__svg{
-  align-self: center;
-  width: 400px;
-  height: 300px;
-  display: block;
-  position: relative;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-
