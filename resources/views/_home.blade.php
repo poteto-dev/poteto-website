@@ -23,7 +23,7 @@
         </div>
         <div class="col-md-6">
           <div class="card card-body border-0">
-            <img class="undraggable" src="{{ asset("section-1.svg") }}" width="518" height="360">
+            <img class="undraggable" src="{{ asset("assets/img/section-1__2.svg") }}" width="518" height="360">
           </div>
         </div>
       </div>
