@@ -33,7 +33,7 @@ html,body {
   }
 }
 
-.section-1{
+.section-1, .section-2{
   height: 100%;
   .container{
     height: 100%;
@@ -102,4 +102,20 @@ html,body {
       }
     }
   }
+}
+
+.wave{
+  width: 100%;
+  height: auto;
+}
+
+.section-2{
+  background-color: $wisp-pink;
+}
+
+.section-2__img{
+  max-width: 100%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
