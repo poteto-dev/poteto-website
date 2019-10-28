@@ -67,13 +67,13 @@ html,body {
           border: none;
           border-radius: 45px;
           transition: all 0.3s ease 0s;
-          box-shadow: 0px 15px 20px rgba(229,164,237, 0.4);
+          box-shadow: 0px 15px 20px rgba(246,163,155, 0.4);
           cursor: pointer;
           outline: none;
           &:hover{
-            background-color: $cornflower-blue;
+            background-color: $cinnabar;
             color: $white;
-            box-shadow: 0px 15px 20px rgba(122,91,245,0.4);
+            box-shadow: 0px 15px 20px rgba(230, 56, 66, 0.4);
             transform: translateY(-7px);
           }
         }

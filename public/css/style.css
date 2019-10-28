@@ -113,15 +113,15 @@ body {
   border-radius: 45px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  box-shadow: 0px 15px 20px rgba(229, 164, 237, 0.4);
+  box-shadow: 0px 15px 20px rgba(246, 163, 155, 0.4);
   cursor: pointer;
   outline: none;
 }
 
 .section-1__row .col-md-6 .card .my-auto button:hover {
-  background-color: #7A5BF5;
+  background-color: #E63842;
   color: #ffffff;
-  box-shadow: 0px 15px 20px rgba(122, 91, 245, 0.4);
+  box-shadow: 0px 15px 20px rgba(230, 56, 66, 0.4);
   -webkit-transform: translateY(-7px);
           transform: translateY(-7px);
 }
