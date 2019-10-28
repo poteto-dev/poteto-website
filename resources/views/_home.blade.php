@@ -16,8 +16,11 @@
           <div class="card card-body border-0">
             <div class="my-auto">
               <h1 class="font-bb">Build your app and grow your business with us.</h1>
-              <p class="font-br ls-03 my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem culpa debitis delectus dignissimos eligendi eum harum iusto laborum nesciunt nulla numquam pariatur reiciendis repellendus, sed sint sunt veritatis? Illo, totam.</p>
-              <button type="button" class="btn btn-lg font-bb ls-03">Contact our team</button>
+              <p class="font-br ls-03 my-5">We work as a team with our respective expertise. With existing capabilities, we are ready to help develop your business based on the needs of the current era.</p>
+              <div class="card card-body">
+                <input class="font-br" type="email" placeholder="Your email">
+                <button type="button" class="btn font-bb ls-03">Contact our team</button>
+              </div>
             </div>
           </div>
         </div>
