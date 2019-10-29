@@ -74,12 +74,14 @@ body {
 }
 
 .section-1,
-.section-2 {
+.section-2,
+.section-3 {
   height: 100%;
 }
 
 .section-1 .container,
-.section-2 .container {
+.section-2 .container,
+.section-3 .container {
   height: 100%;
 }
 
@@ -171,6 +173,12 @@ body {
           transform: translateY(-7px);
 }
 
+.section-1__row .col-md-6 .card .my-auto .card button:focus {
+  outline-offset: 0;
+  outline: -webkit-focus-ring-color auto 0px;
+  box-shadow: 0 0 0 0;
+}
+
 .wave {
   width: 100%;
   height: auto;
@@ -185,5 +193,10 @@ body {
   height: auto;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.lang-icon {
+  width: 50px;
+  height: 50px;
 }
 
