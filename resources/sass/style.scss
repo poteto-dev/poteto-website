@@ -33,7 +33,7 @@ html,body {
   }
 }
 
-.section-1, .section-2{
+.section-1, .section-2, .section-3{
   height: 100%;
   .container{
     height: 100%;
@@ -68,11 +68,11 @@ html,body {
           box-shadow: 0px 15px 20px rgba(246,163,155, 0.4);
           input{
             height: 100%;
-            padding-right: 36%;
+            padding-right: 155px;
             border: 0;
             color: $salmon-pink;
             &::placeholder{
-              color: $salmon-pink;
+              color: rgba(246,163,155,0.75);
             }
             &:focus{
               outline-offset: 0;
@@ -83,9 +83,9 @@ html,body {
             position: absolute;
             right: 10px;
             top: 7px;
-            width: auto;
+            width: 165px;
             height: 39px;
-            padding: 3px 3%;
+            padding: 3px 3px;
             background-color: $salmon-pink;
             color: $white;
             border: none;
@@ -96,6 +96,11 @@ html,body {
               color: $white;
               box-shadow: 0px 15px 20px rgba(230, 56, 66, 0.4);
               transform: translateY(-7px);
+            }
+            &:focus{
+              outline-offset: 0;
+              outline: -webkit-focus-ring-color auto 0px;
+              box-shadow: 0 0 0 0;
             }
           }
         }
@@ -118,4 +123,25 @@ html,body {
   height: auto;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.lang-icon{
+  width: 50px;
+  height: 50px;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: $white;
+  text-align: center;
+  background-color: $salmon-pink;
+  border-radius: .25rem;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+  margin-left: -3px;
+  content: "";
+  border-width: 5px 5px 0;
+  border-top-color: $salmon-pink;
 }
