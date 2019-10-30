@@ -53,22 +53,32 @@
               <p class="font-br ls-03 mt-3">Basically, we use the best programming tools and languages for the development process.</p>
               <p class="font-bb ls-03">Languages:</p>
               <div class="align-items-center justify-content-start">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lang/kotlin.svg") }}" data-toggle="tooltip" title="kotlin">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lang/dart.svg") }}" data-toggle="tooltip" title="dart">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lang/java.svg") }}" data-toggle="tooltip" title="java">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lang/php.svg") }}" style="height: 25px" data-toggle="tooltip" title="php">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lang/sass.svg") }}" data-toggle="tooltip" title="sass">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lang/javascript.svg") }}" data-toggle="tooltip" title="javascript">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lang/typescript.svg") }}" data-toggle="tooltip" title="typescript">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lang/kotlin.svg") }}" data-toggle="tooltip" title="Kotlin">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lang/dart.svg") }}" data-toggle="tooltip" title="Dart">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lang/java.svg") }}" data-toggle="tooltip" title="Java">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lang/clojure.svg") }}" data-toggle="tooltip" title="Clojure">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lang/php.svg") }}" style="height: 25px" data-toggle="tooltip" title="Php">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lang/sass.svg") }}" data-toggle="tooltip" title="Sass">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lang/javascript.svg") }}" data-toggle="tooltip" title="Javascript">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lang/typescript.svg") }}" data-toggle="tooltip" title="Typescript">
               </div>
               <p class="font-bb ls-03 mt-3">Framework & libraries:</p>
               <div class="align-items-center justify-content-start">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lib/vue.svg") }}" data-toggle="tooltip" title="vue">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lib/laravel.svg") }}" data-toggle="tooltip" title="laravel">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lib/flutter.svg") }}" data-toggle="tooltip" title="flutter">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lib/clojure.svg") }}" data-toggle="tooltip" title="clojure">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lib/bootstrap.svg") }}" data-toggle="tooltip" title="bootstrap">
-                <img class="lang-icon mr-2" src="{{ asset("svg/icon/lib/jquery.svg") }}" style="width: 100px;" data-toggle="tooltip" title="typescript">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lib/vue.svg") }}" data-toggle="tooltip" title="Vue">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lib/laravel.svg") }}" data-toggle="tooltip" title="Laravel">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lib/flutter.svg") }}" data-toggle="tooltip" title="Flutter">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lib/bootstrap.svg") }}" data-toggle="tooltip" title="Bootstrap">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lib/tailwindcss.svg") }}" data-toggle="tooltip" title="Tailwind">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/lib/jquery.svg") }}" style="width: 100px;" data-toggle="tooltip" title="Jquery">
+              </div>
+              <p class="font-bb ls-03 mt-3">Tools used:</p>
+              <div class="align-items-center justify-content-start">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/tools/git.svg") }}" data-toggle="tooltip" title="Git">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/tools/postman.svg") }}" data-toggle="tooltip" title="Postman">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/tools/mariadb.svg") }}" data-toggle="tooltip" title="MariaDB" style="width: auto">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/tools/mysql.svg") }}" data-toggle="tooltip" title="MySQL" style="width: auto">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/tools/postgresql.svg") }}" data-toggle="tooltip" title="PostgreSQL">
+                <img class="lang-icon mr-2 mt-2 mt-md-0" src="{{ asset("svg/icon/tools/docker.svg") }}" data-toggle="tooltip" title="Docker" style="width: auto">
               </div>
               <p class="font-br ls-03 mt-4">Besides programming, we also have expertise in design.</p>
             </div>
@@ -91,68 +101,7 @@
 @section('javascript')
   <script>
       $( document ).ready(function() {
-          $('img[title="kotlin"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="dart"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="java"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="php"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="sass"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="javascript"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="typescript"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-
-          $('img[title="vue"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="laravel"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="flutter"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="clojure"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="bootstrap"]').tooltip({
-              animated: 'fade',
-              placement: 'top',
-              html: true
-          });
-          $('img[title="jquery"]').tooltip({
+          $('img[data-toggle="tooltip"]').tooltip({
               animated: 'fade',
               placement: 'top',
               html: true
