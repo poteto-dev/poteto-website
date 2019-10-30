@@ -68,7 +68,7 @@ html,body {
           box-shadow: 0px 15px 20px rgba(246,163,155, 0.4);
           input{
             height: 100%;
-            padding-right: 36%;
+            padding-right: 155px;
             border: 0;
             color: $salmon-pink;
             &::placeholder{
@@ -83,9 +83,9 @@ html,body {
             position: absolute;
             right: 10px;
             top: 7px;
-            width: auto;
+            width: 165px;
             height: 39px;
-            padding: 3px 3%;
+            padding: 3px 3px;
             background-color: $salmon-pink;
             color: $white;
             border: none;
