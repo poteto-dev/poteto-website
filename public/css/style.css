@@ -58,6 +58,45 @@ body {
   -ms-user-select: none;
 }
 
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+
+.bounce {
+  animation: bounce 4s infinite ease-in-out;
+  -webkit-animation: bounce 4s infinite ease-in-out;
+}
+
 .navbar {
   height: 100px;
 }
