@@ -40,15 +40,15 @@
 
   <section class="section-2">
     <div class="container">
-      <div class="row h-100">
-        <div class="col-md-6 h-100">
-          <div class="card card-body bg-transparent border-0 h-100" data-aos="zoom-in">
-            <img class="undraggable section-2__img bounce" src="{{ asset("svg/section/section-2.svg") }}" width="518" height="360">
+      <div class="row section-2__row">
+        <div class="col-md-6">
+          <div class="card card-body bg-transparent border-0" data-aos="zoom-in">
+            <img class="undraggable section-2__content bounce" src="{{ asset("svg/section/section-2.svg") }}" width="518" height="360">
           </div>
         </div>
-        <div class="col-md-6 h-100">
-          <div class="card card-body bg-transparent border-0 h-100">
-            <div class="my-auto">
+        <div class="col-md-6">
+          <div class="card card-body bg-transparent border-0">
+            <div class="section-2__content">
               <h1 class="font-bb" data-aos="fade-down">Our Expertise</h1>
               <p class="font-br ls-03 mt-5" data-aos="fade-down-left">Basically, we use the best programming tools and languages for the development process.</p>
               <p class="font-bb ls-03" data-aos="fade-left">Languages:</p>
