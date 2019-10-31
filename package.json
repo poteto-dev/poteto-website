@@ -26,6 +26,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "bootstrap": "^4.3.1",
         "jquery": "^3.4.1"
     }
