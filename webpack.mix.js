@@ -17,5 +17,7 @@ mix.version();
 mix.copyDirectory('resources/fonts', 'public/fonts');
 mix.copy('node_modules/bootstrap/dist/js/bootstrap.js', 'public/js/bootstrap.js');
 mix.copy('node_modules/jquery/dist/jquery.js', 'public/js/jquery.js');
+mix.copy('node_modules/aos/dist/aos.css', 'public/css/aos.css');
+mix.copy('node_modules/aos/dist/aos.js', 'public/js/aos.js');
 mix.sass('resources/sass/style.scss', 'public/css');
 mix.sass('resources/sass/bootstrap/bootstrap.scss', 'public/css');
