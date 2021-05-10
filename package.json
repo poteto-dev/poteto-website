@@ -17,7 +17,7 @@
         "jquery": "^3.4",
         "jquery.nicescroll": "^3.7",
         "laravel-mix": "^4.0.7",
-        "lodash": "^4.17.13",
+        "lodash": "^4.17.21",
         "moment": "^2.24",
         "popper.js": "^1.14",
         "resolve-url-loader": "^2.3.1",
